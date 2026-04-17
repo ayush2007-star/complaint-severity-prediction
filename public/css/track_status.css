@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(135deg,#0f2027, #203a43, #2c5364);
+    color: #ffffff;
+    min-height: 100vh;
+}
+.status-area{
+    background:rgb(7, 47, 79) ;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border:2px solid rgb(4, 56, 99);
+    border-radius: 10px;
+    width: 75px;
+    text-align: center;
+}
+.link-btn{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.container h1{
+    background:rgb(23, 51, 87) ;
+    color: orange;
+    text-align: center;
+    border: 2px solid rgb(238, 235, 232);
+    padding: 0;
+    padding-top: 40px;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    border-radius: 100px;
+}
+.hero p{
+    margin-top: 50px;
+    color: red;
+    text-align: center;
+}
+.btn{
+    text-align: center;
+}
+.btn input{
+    height: 40px;
+    border: 3px solid rgba(16, 209, 77, 0.619);
+    border-radius: 10px;
+    box-shadow: #07cb2ea0;
+}
+.text{
+    font-size: 23px;
+    color: antiquewhite;
+}
+.btn1{
+    height: 30px;
+    border: 2px solid rgb(5, 255, 92);
+    border-radius: 10px;
+    background: #81e0a4;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: green;
+    border-color: #259c0a;
+}
+.btn2{
+    height: 30px;
+    border: 2px solid rgb(44, 135, 76);
+    border-radius: 10px;
+    background: #30f704;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: rgb(22, 76, 22);
+    border-color: #1e5b11;
+}
+
+.track-output {
+    max-width: 860px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 18px;
+}
+
+.track-item {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    color: #f8fafc;
+}
+
+.track-item hr {
+    border: 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.12);
+    margin: 1rem 0 0.5rem;
+}

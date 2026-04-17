@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prediction Result</title>
+    <link rel="stylesheet" href="css/prediction_result.css" />
+  </head>
+  <body>
+    <main class="page-wrapper">
+      <section class="result-card">
+        <div class="result-header">
+          <h1>Complaint Prediction Result</h1>
+          <p class="intro">This page shows the severity prediction and summary of your submitted complaint.</p>
+        </div>
+
+        <div class="result-status">
+          <span class="status-label">Predicted Severity</span>
+          <strong id="status-value" class="status-value">High</strong>
+        </div>
+
+        <div class="result-details">
+          <h2>What this means</h2>
+          <p id="details-text">The complaint has been classified as <strong>High priority</strong>. A response should be issued quickly to address the reported issue.</p>
+        </div>
+
+        <div class="result-metrics">
+          <div class="metric">
+            <span class="metric-title">Confidence</span>
+            <strong id="confidence-value">92%</strong>
+          </div>
+          <div class="metric">
+            <span class="metric-title">Category</span>
+            <strong id="category-value">Service</strong>
+          </div>
+          <div class="metric">
+            <span class="metric-title">Recommended action</span>
+            <strong id="action-value">Review immediately</strong>
+          </div>
+        </div>
+
+        <div class="actions">
+          <a class="btn secondary" href="submit_complaint.html">Submit another</a>
+          <a class="btn primary" href="home_page.html">Back to Home</a>
+        </div>
+      </section>
+    </main>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

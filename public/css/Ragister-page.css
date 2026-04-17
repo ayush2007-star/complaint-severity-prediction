@@ -1,0 +1,81 @@
+body{
+  background: linear-gradient(135deg,#0f2027, #203a43, #2c5364);;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;      
+  font-family: Arial, sans-serif;
+}
+.sign-in-box{
+    width: 300px;
+  padding: 25px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  text-align: center;
+  border-color: green;
+  border: 2px solid rgb(15, 198, 15);
+  box-shadow: 0 0 10px rgba(1, 1, 1, 0.837);
+}
+.sign-in-box h2{
+    margin-bottom: 20px;
+    color: rgb(15, 198, 15);
+}
+.subtitle{
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 14px;
+}
+.alert{
+    font-size: 13px;
+    color: red;
+    text-align: end;
+}
+.home-link{
+    background:rgb(7, 47, 79) ;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border:2px solid rgb(4, 56, 99);
+    border-radius: 10px;
+    width: 75px;
+}
+.Back{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+.form-group input{
+    height: 20px;
+    padding: 10px;
+    margin-top: 8px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+    border: 2px solid rgb(15, 198, 15);
+    width: 90%;
+    font-size: 14px;
+}
+.checkbox-group{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.submit-btn{
+    width: 70%;
+    padding: 10px;
+    background: rgb(15, 198, 15);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.submit-btn:hover{
+    background: rgb(10, 150, 10);
+    color: #555;
+}
+.login-link {
+    margin-top: 20px;
+    color: rgb(100, 100, 100);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Severity Dashbord</title>
+    <link rel="stylesheet" href="css/Home_page.css">
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">
+        <h2>Complaint Model</h2>
+        <p>AI That Reads Complaints & Predicts Severity in Seconds</p>
+      </div>
+      <nav>
+        <a href="home_page.html">Home</a>
+        <a href="#About">About Me</a>
+        <a href="#contact">Contact</a>
+        <a href="sign_in-Ayush-tripathi.html">Ragister/Sign Up</a>
+        <a href="login-Ayush-tripathi.html">Sign In/Login</a>
+        <a href="track_status.html">Track states</a>
+      </nav>
+    </header>
+    <section class="hero">
+      <h1>AI-Powered Complaint Analysis</h1>
+      <p>
+        Automatically Analyze and predict complaint severity using advanced machine learning
+      </p>
+        <div class="buttons">
+          <a href="sign_in-Ayush-tripathi.html" class="btn primary">Ragister here</a>
+          <a href="login-Ayush-tripathi.html" class="btn outline">Login</a>
+      </div>
+    </section>
+    <section class="About" id="About">
+      <h1>About Us</h1>
+      <p>
+        This project is a personal machine learning-based system designed to analyze
+        complaints submitted by people against companies. The main objective of this
+        platform is to automatically read complaint text and predict its severity
+        level, helping organizations understand and prioritize customer issues more
+        effectively.
+      </p>
+      <p>
+        The system uses advanced Natural Language Processing techniques with
+        <strong>BERT-based word embeddings</strong> combined with a
+        <strong>Random Forest classification model</strong> to accurately classify
+        complaints into severity categories such as Low, Medium, and High.
+      </p>
+      <p>
+        This platform is useful for companies, administrators, and users to ensure
+        faster complaint handling, improved customer satisfaction, and data-driven
+        decision making. It demonstrates the practical application of AI and machine
+        learning in solving real-world customer support problems.
+      </p>
+    </section>
+    <section class="contact" id="contact">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, feedback, or suggestions, feel free to reach out.</p>
+
+      <div class="contact-info">
+        <p><strong>Email:</strong> brkt.552005@gmail.com</p>
+        <p><strong>Phone:</strong> +91 7309872195</p>
+        <p><strong>Location:</strong> Prayagraj, India</p>
+      </div>
+
+      <form id="contact-form" class="contact-form">
+        <input id="contact-name" type="text" placeholder="Your Name" required>
+        <input id="contact-email" type="email" placeholder="Your Email" required>
+        <textarea id="contact-message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+        <p id="contact-feedback" class="alert"></p>
+      </form>
+    </section>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Complaint</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h2>Submit a Complaint</h2>
+      <p class="muted">Write your complaint below — we will predict severity and store it locally if you're not logged in. If logged in, it will save to the server.</p>
+
+      <form id="complaint-form">
+        <div class="form-group">
+          <label for="c-name">Your Name</label>
+          <input id="c-name" type="text" placeholder="Full name" required>
+        </div>
+        <div class="form-group">
+          <label for="c-email">Email</label>
+          <input id="c-email" type="email" placeholder="you@example.com" required>
+        </div>
+        <div class="form-group">
+          <label for="c-category">Category</label>
+          <select id="c-category">
+            <option value="general">General</option>
+            <option value="billing">Billing</option>
+            <option value="service">Service</option>
+            <option value="safety">Safety</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="c-text">Complaint</label>
+          <textarea id="c-text" placeholder="Describe your complaint" required></textarea>
+        </div>
+
+        <div class="btn-row">
+          <button class="submit-btn" type="submit">Submit Complaint</button>
+          <a class="link-btn" href="complaint_history.html">View My Complaints</a>
+          <a class="link-btn" href="home_page.html">Back to Home</a>
+        </div>
+        <div id="prediction-result"></div>
+      </form>
+    </div>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Track Status - Complaint Severity Dashboard</title>
+    <link rel="stylesheet" href="css/track_status.css">
+  </head>
+    <body>
+    <div class="status-area">
+      <a class="link-btn" href="home_page.html"><::</a>
+    </div>
+    <div class="container">
+      <h1>Track Complaint Status</h1>
+    </div>
+    <div class="hero">
+      <p>Enter your complaint ID to check status, or click <strong>Show My Complaints</strong> to list complaints for the logged-in user.</p>
+      <div class="btn">
+        <label class="text" for="complaint-id">Complaint ID</label>
+        <input id="complaint-id" type="text" placeholder="e.g. 123" style="width:160px;margin-left:8px">
+        <button id="find-btn" class="btn1" style="margin-left:8px">Find</button>
+        <button id="show-my" class="btn2" style="margin-left:8px">Show My Complaints</button>
+      </div>
+      <div id="track-output" class="track-output"></div>
+    </div>
+    <script src="js/app.js" defer></script>
+  </body>
+</html>
